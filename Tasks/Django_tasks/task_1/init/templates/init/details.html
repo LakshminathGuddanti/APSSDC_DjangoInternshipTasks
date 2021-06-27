@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "container">
+        <div class = "row justify-content-center">
+            <p style="font-size: medium;">The details are:</p>
+            The First name is: {{fname}}<br>
+            the last name is: {{lname}}<br>
+            the email is: {{email}}<br>
+            the phone number is: {{phoneno}}<br>
+            Your gender is: {{radio}}<br>
+            your address is: {{address}}<br>
+            Languages you know are: {{check1}}<br>
+
+            <br>
+            <a href="{% url 'login' %}">Click here</a>
+            <h1>To login </h1>
+        </div>
+    </div>
+</body>
+</html>
